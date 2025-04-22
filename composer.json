@@ -1,0 +1,39 @@
+{
+    "name": "actcmsvn/rpclient",
+    "description": "Máy khách wrapper của RaudhahPay Gateway",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "RaudahPay",
+        "Payment Gateway",
+        "Payment",
+        "Raudhah",
+        "Online Banking",
+        "Malaysia",
+        "Banking",
+        "BMF"
+    ],
+    "homepage": "https://actcms.io.vn",
+    "authors": [
+        {
+            "name": "ACTCMS Vietnam",
+            "email": "info@actcms.io.vn"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3|^8.0",
+        "ext-json": "*",
+        "actcmsvn/zttp": "^1.0"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^4.1",
+        "phpunit/phpunit": "^8.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "ACTCMS\\Rpclient\\":"src/"
+        }
+    }
+}
